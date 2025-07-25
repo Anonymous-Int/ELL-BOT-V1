@@ -1,0 +1,4 @@
+{
+  "watch": ["index.js", "plugins", "config.js"],
+  "ignore": ["session", "node_modules"]
+}

@@ -45,11 +45,12 @@ cd ELL-BOT-V1
 npm install
 node index.js
 ```
+
 ---
 ### ⚙️ Konfigurasi .env
-
 Buat file .env seperti berikut:
 ---
+
 ```bash
 PREFIX=!
 NAMA_BOT=ELL-BOT
@@ -57,4 +58,43 @@ OWNER_NAME=Jonathan
 OWNER_NUMBER=628xxxxxxx,628xxxxxxx
 SESSION_FILE=session.json
 OPENAI_API_KEY=your_openai_api_key
+```
+---
+
+### 📷 Screenshot
+
+---
+
+
+---
+
+## 🚀 2. **Cara Deploy ke VPS (Contoh: Ubuntu 22.04)**
+
+Berikut langkah-langkah lengkap untuk **hosting bot di VPS** agar berjalan 24/7:
+
+### ✅ A. Persiapan VPS
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install nodejs npm git ffmpeg webp imagemagick tesseract-ocr python3 python3-pip -y
+pip install gTTS
+pip install git+https://github.com/pndurette/gTTS.git
+```
+---
+
+### ✅ B. Clone Repo dan Jalankan
+```bash
+git clone https://github.com/Anonymous-Int/ELL-BOT-V1.git
+cd ELL-BOT-V1
+npm install
+nano .env    # <-- buat atau edit file konfigurasi
+node index.js
+```
+---
+✅ C. Menjalankan Bot 24/7 dengan pm2
+```bash
+sudo npm install -g pm2
+pm2 start index.js --name ell-bot
+pm2 save
+pm2 startup
 ```

@@ -49,7 +49,7 @@ cd ELL-BOT-V1
 
 # Install Untuk Fungsi Fitur BOT WA
 sudo apt install python3-pip -y
-pip3 install gTTS gtts-cli
+pip install gTTS
 
 # Install dependency
 npm install

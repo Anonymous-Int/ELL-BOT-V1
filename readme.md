@@ -6,9 +6,10 @@
 
 ---
 ### 📷 Screenshot
-<img src="">[media/sc1.png](https://github.com/Anonymous-Int/ELL-BOT-V1/blob/main/media/sc1.png)</img>
 ---
-<img src="">[media/sc3.png](https://github.com/Anonymous-Int/ELL-BOT-V1/blob/main/media/sc3.png)</img>
+![Preview Bot](https://github.com/Anonymous-Int/ELL-BOT-V1/blob/main/media/sc1.png?raw=true)
+---
+![Preview Bot](https://github.com/Anonymous-Int/ELL-BOT-V1/blob/main/media/sc3.png?raw=true)
 ---
 
 ## 📦 Fitur Utama

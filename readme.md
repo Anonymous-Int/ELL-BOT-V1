@@ -62,10 +62,7 @@ OPENAI_API_KEY=your_openai_api_key
 ---
 
 ### 📷 Screenshot
-
----
-
-
+<img src=""></img>
 ---
 
 ## 🚀 2. **Cara Deploy ke VPS (Contoh: Ubuntu 22.04)**
@@ -91,7 +88,7 @@ nano .env    # <-- buat atau edit file konfigurasi
 node index.js
 ```
 ---
-✅ C. Menjalankan Bot 24/7 dengan pm2
+### ✅ C. Menjalankan Bot 24/7 dengan pm2
 ```bash
 sudo npm install -g pm2
 pm2 start index.js --name ell-bot

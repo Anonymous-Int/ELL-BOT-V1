@@ -6,7 +6,7 @@
 
 ---
 ### 📷 Screenshot
-<img src="">[media/sc1.png](https://github.com/Anonymous-Int/ELL-BOT-V1/blob/main/media/sc1.png)</img>
+![Preview Bot](https://github.com/Anonymous-Int/ELL-BOT-V1/blob/main/media/sc1.png?raw=true)
 ---
 
 ## 📦 Fitur Utama

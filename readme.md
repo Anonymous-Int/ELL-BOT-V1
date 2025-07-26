@@ -5,6 +5,9 @@
 **ELL-BOT-V1** adalah bot WhatsApp berbasis Node.js dengan banyak fitur seperti AI Chat, Downloader, Group Admin, Sticker Maker, Voice Tools, dan lainnya. Cocok untuk kebutuhan pribadi maupun komunitas.
 
 ---
+### 📷 Screenshot
+<img src="">media/sc1.png</img>
+---
 
 ## 📦 Fitur Utama
 
@@ -59,10 +62,6 @@ OWNER_NUMBER=628xxxxxxx,628xxxxxxx
 SESSION_FILE=session.json
 OPENAI_API_KEY=your_openai_api_key
 ```
----
-
-### 📷 Screenshot
-<img src=""></img>
 ---
 
 ## 🚀 2. **Cara Deploy ke VPS (Contoh: Ubuntu 22.04)**

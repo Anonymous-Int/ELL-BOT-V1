@@ -47,6 +47,10 @@ sudo apt install nodejs npm git ffmpeg webp imagemagick tesseract-ocr -y
 git clone https://github.com/Anonymous-Int/ELL-BOT-V1.git
 cd ELL-BOT-V1
 
+# Install Untuk Fungsi Fitur BOT WA
+sudo apt install python3-pip -y
+pip3 install gTTS gtts-cli
+
 # Install dependency
 npm install
 

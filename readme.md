@@ -17,9 +17,9 @@
 - 🔒 Fitur Admin & Anti-Link
 
 ---
-
+<hr>
 ## 🔧 Instalasi Bot
-
+<hr>
 ### 📱 Termux (Android)
 
 ```bash
@@ -31,3 +31,17 @@ git clone https://github.com/Anonymous-Int/ELL-BOT-V1.git
 cd ELL-BOT-V1
 npm install
 node index.js
+
+<hr>
+
+💻 Linux (Ubuntu/Debian)
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install nodejs npm git ffmpeg webp imagemagick tesseract-ocr python3 python3-pip -y
+pip install gTTS
+pip install git+https://github.com/pndurette/gTTS.git
+git clone https://github.com/Anonymous-Int/ELL-BOT-V1.git
+cd ELL-BOT-V1
+npm install
+node index.js
+
